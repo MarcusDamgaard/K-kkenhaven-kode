@@ -1,0 +1,253 @@
+/* Mie */
+body {
+  font-family: 'rem';font-size: 16px;
+  font-family: 'Open Sans';font-size: 22px;
+  margin: 0;
+  padding: 0;
+  background-color: #678769;
+  color: #FCF9F6;
+}
+
+header.banner {
+  background-color: #645D53;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header.banner p {
+  margin: 10px 0 0;
+  font-size: 2vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EDE4D9;
+  padding: 10px 20px;
+}
+
+header{
+  flex-direction: row;
+}
+
+.logo {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #2E2312;
+  font-size: 1.5vw;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Rebecca */
+#minVideo {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3vw;
+  margin: 3% 0;
+}
+
+h2 {
+  font-size: 2.7vw;
+  margin-top: 2vw;
+}
+
+.tekstopsætning2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 4%;
+  margin-bottom: 2.5vw;
+  text-align: left;
+}
+
+.tekstopsætning {
+  flex: 1 1 40%;
+  margin: 10px;
+  font-size: 1.4vw;
+}
+
+.tekst1{
+  font-size: 2vw;
+  margin-bottom: 7vw;
+  width: 70vw;
+  margin-left: 16vw;
+}
+
+
+.billede3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5vw;
+}
+
+.billede3 img {
+  flex: 1 1 30%;
+  max-width: 35%;
+  height: auto;
+}
+
+/* Marcus */
+footer {
+  background-color: #645D53;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+footer section {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  min-width: 200px; 
+}
+
+.footer-left h3,
+.footer-center h3,
+.footer-right h3 {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  color: #ffffff;
+}
+
+.footer-center, .footer-left, .footer-right{
+  text-align: center;
+}
+
+.footer-left{
+  text-align: left;
+}
+
+.footer-left ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-left li {
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; 
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px; 
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-right a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+/* Marcus */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: row;
+  }
+
+  .nav-links {
+      flex-direction: row;
+      align-items: center;
+  }
+
+  footer {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  footer section {
+      padding: 10px 20px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .tekstopsætning {
+      flex: 1 1 100%;
+      margin: 10px 0;
+  }
+
+.margin{
+  margin-top: -13px;
+}
+.tekstopsætning{
+  font-size: 2.6vw;
+}
+
+.tekst1{
+  font-size: 2.6vw
+}
+  
+h1{
+  font-size: 3.2vw;
+}
+
+h2{
+  font-size: 4vw;
+}
+
+.nav-links a{
+  font-size: 3vw;
+}
+
+.tekstopsætning2{
+  margin-top: -15px;
+}
+header.banner p{
+  font-size: 3vw;
+}
+
+.logo{
+  font-size: 3.2vw;
+}
+.footer-left{
+  text-align: center;
+}
+
+}
